@@ -785,7 +785,7 @@ namespace Neuru.AssetManager
             using (new GUILayout.HorizontalScope())
             {
                 GUILayout.FlexibleSpace();
-                GUILayout.Button("Edited By Neuru#3455", "boldlabel");
+                GUILayout.Button("Modified By Neuru#3455", "boldlabel");
             }
         }
 
