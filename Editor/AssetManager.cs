@@ -41,7 +41,7 @@ namespace Neuru.AssetManager
             new ManageType(7, "Mask", typeof(AvatarMask)),
             new ManageType(8, "Scene", typeof(SceneAsset)),
             new ManageType(9, "Preset", typeof(Preset)),
-            new ManageType(10, "VRC", "VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionParameters","VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu"),
+            new ManageType(10, "VRC", "VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionParameters, VRCSDK3A","VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu, VRCSDK3A"),
             new ManageType(11, "Shader", typeof(Shader)),
             new ManageType(12, "Script", new string[] {".dll"}, typeof(MonoScript)),
             new ManageType(13, "Other", typeof(ScriptableObject))
