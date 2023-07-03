@@ -1,5 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## [1.0.2] - 2023-07-03
+- Fixed a crash when an unsupported asset type exists in a directory.
 ## [1.0.1] - 2023-06-26
 - Bug fixed
 ## [1.0.0] - 2023-06-26
