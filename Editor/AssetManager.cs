@@ -15,7 +15,7 @@ using Object = UnityEngine.Object;
 //Discord: https://discord.gg/ZsPfrGn
 //Github: https://github.com/Dreadrith/DreadScripts
 
-//Forked by Neuru#5278 or neuru5278
+//Forked by Neuru#3455 or neuru5278
 //Github : https://github.com/Neuru5278/AssetManager
 
 namespace Neuru.AssetManager
@@ -805,6 +805,8 @@ namespace Neuru.AssetManager
             List<string> list =
                 (from fileName in fileEntries
                  where !fileName.EndsWith(".meta")
+                       && !string.IsNullOrEmpty(AssetDatabase.AssetPathToGUID(fileName.Replace('\\', '/')))
+                       //지원하는 에셋 타입 여부 확인
                  select fileName.Replace('\\', '/')).ToList();
 
 
